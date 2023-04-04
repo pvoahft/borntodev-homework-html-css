@@ -1,0 +1,836 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
+
+
+body{
+    margin: 0 auto;
+}
+    
+
+.bg {
+    background-image: url(/img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+/* navigation */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 137px;
+    margin-top: 36px;
+
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.logo .nameBrand {
+    font-weight: 700;
+    color: #575757;
+}
+
+.logo .brand{
+    text-decoration: none;
+    color: #575757;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+nav .listNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 48px;
+    color: #575757;
+    list-style-type: none;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.listNav a {
+    text-decoration: none;
+    color: #575757;
+}
+
+nav .ctaSignup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border: 10 px;
+    border-radius: 40px;
+}
+
+nav .ctaSignup img {
+    width: 28px;
+    height: 28px;
+}
+
+/* CTA */
+.chatbot {
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    width: 145px;
+    height: 117px;
+    right: 60px;
+    bottom: 60px;
+}
+
+/* Heropage */
+.heropage {
+    width: fit-content;
+}
+
+.hero-message {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-left: 168px;
+}
+
+.heropage .key-message {
+    width: fit-content;
+    /* transform: translateX(400px);
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 120px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heropage .hero-tagline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.key-message .head_title {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60 px;
+    line-height: 99px;
+    color: #242561;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.key-message .subtitle {
+    width: 748px;
+    height: auto;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 41 px;
+    color: #343434;
+}
+
+.key-message button {
+    padding: 12px 24px;
+    width: 193px;
+    height: 57px;
+    border-radius: 40px;
+    color: #242561;
+}
+
+.heropage .image-hero {
+    width: fit-content;
+    margin-left: 100px;
+}
+
+/* Key Feature */
+.keyFeature {
+    width: fit-content;
+    margin-top: 100px;
+    margin-left: 148px;
+}
+
+.keyFeature .keyfeature-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.keyFeature .keyFeature-message {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.keyFeature .keyFeature-message .title_keyFeature {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 99px;
+    color: #FFE8C4;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.keyFeature .keyFeature-message .subtitle_keyFeature {
+    width: 499px;
+    height: 78px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.keyFeature .easyStep {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 360px;
+}
+
+.keyFeature .easyStep .number1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 120px;
+    height: 115px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.keyFeature .easyStep .number1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.keyFeature .easyStep .number1 subtitle {
+    color: #FFFFFF;
+}
+
+.keyFeature .easyStep .number2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 120px;
+    height: 115px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.keyFeature .easyStep .number2 img {
+    width: 40px;
+    height: 40px;
+}
+
+.keyFeature .easyStep .number2 subtitle {
+    color: #FFFFFF;
+}
+
+.keyFeature .easyStep .number3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    width: 120px;
+    height: 115px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.keyFeature .easyStep .number3 img {
+    width: 40px;
+    height: 40px;
+}
+
+.keyFeature .easyStep .number3 subtitle {
+    color: #FFFFFF;
+}
+
+.keyFeature .keyShow {
+    width: fit-content;
+}
+
+.keyShow .img-show {
+    position: relative;
+    width: fit-content;
+}
+
+.keyFeature .keyShow .save {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    position: absolute;
+    width: 116px;
+    height: 36px;
+    margin-top: 33px;
+    left: 874px;
+    background: #AAAAAA;
+    border-radius: 6px;
+}
+
+.keyFeature .keyShow .getCode {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 33px;
+    width: 116px;
+    height: 36px;
+    position: absolute;
+    margin-top: 33px;
+    right: 24px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+/* Report */
+.report {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.report .title-report {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.report .title-report .case-message {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-right: 250px;
+}
+
+.report .case-message .title-case {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    color: #242561;
+    width: fit-content;
+
+}
+
+.report .case-message .subtitle_case {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #242561;
+    width: 499px;
+    height: 78px;
+}
+
+.report .carousel {
+    margin-top: 12px;
+}
+
+.report .carousel .slide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.report .carousel-inner {
+    margin-top: 16px;
+    width: 70%;
+    margin-left: 250px;
+    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+/* Client */
+.client {
+    width: 100%;
+    margin-top: 100px;
+    position: relative;
+}
+
+.client .all-content {
+    gap: 24px;
+
+}
+
+.client .all-content .text-and-logo {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.client .all-content .text-and-logo .key-text {
+    width: 853px;
+    height: 198px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 99px;
+    text-align: center;
+    color: #242561;
+}
+
+.client .all-content .text-and-logo .all-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 1055px;
+    height: 183px;
+}
+
+.all-content .text-and-logo .all-logo .row1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44px;
+}
+
+.all-content .text-and-logo .all-logo .row2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 44px;
+}
+
+.client .all-content .link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.client .all-content .readMore {
+    width: 223px;
+    height: 40px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    background: linear-gradient(90deg, #242561 0%, #FF9D00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+/* Tagline */
+.tagline {
+    width: fit-content;
+    margin: 100px auto;
+
+}
+
+.all-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 44px;
+}
+
+.all-content .all-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.all-content .all-text .tagline-text {
+    width: 846px;
+    height: 132px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    text-align: center;
+    color: #20144C;
+}
+
+.all-content .all-text .description {
+    width: 798px;
+    height: 36px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    color: #1D2130;
+}
+
+.all-content .all-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 42px;
+}
+
+.tagline .all-content .all-btn .requestdemo {
+    width: 193px;
+    height: 57px;
+    border-radius: 40px;
+    padding: 12px 24px;
+    color: #242561;
+}
+
+.tagline .all-content .all-btn .viewpricing {
+    width: 193px;
+    height: 57px;
+    border-radius: 40px;
+    padding: 12px 24px;
+    color: #242561;
+}
+
+/* Blog */
+.blog {
+    width: fit-content;
+
+}
+
+.blog .all-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.blog .all-content .blog-all-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.blog .all-content .blog-all-content .title-blog {
+    width: fit-content;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    text-align: center;
+    color: #242561;
+}
+
+.blog .all-blog {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.blog .all-blog .card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog .all-content .all-blog .card-body button {
+    width: 274px;
+    height: 44px;
+    border-radius: 40px;
+    color: #242561;
+    text-align: center;
+}
+
+.blog .all-content .link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.blog .all-content .link .seemore {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 40px;
+    background: linear-gradient(90deg, #242561 0%, #FF9D00 70.31%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* tell-us */
+.tell-us .lead {
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+    margin-left: 200px;
+    gap: 300px;
+}
+
+.tell-us .lead .contact {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+}
+
+.tell-us .lead .contact img {
+    width: fit-content;
+}
+
+.tell-us .lead .contact .address {
+    display: flex;
+    flex-direction: column;
+}
+
+.tell-us .lead .contact .address .we-are {
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 66px;
+    color: #242561;
+}
+
+.contact .address .company-address {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact .address .company-address .address {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: 16px;
+}
+
+.contact .address .company-address .address .text-address {
+    width: 330px;
+    height: 66px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.contact .address .company-address .phone {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: 16px;
+}
+
+.contact .address .company-address .phone .text-phone {
+    width: 330px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.contact .address .company-address .email {
+    display: flex;
+    flex-direction: row;
+    align-items: first baseline;
+    gap: 16px;
+}
+
+.contact .address .company-address .email .text-email {
+    width: 261px;
+    height: 33px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form .input-field{
+    display: flex;
+    flex-direction: column;
+}
+.form .input-field .title-lead{
+    width: 472px;
+    height: 99px;
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 99px;
+    color: #242561;
+}
+.form .input-field .input{
+display: flex;
+flex-direction: column;
+}
+.input .information{
+    display: flex;
+    flex-direction: column;
+    gap:8px;
+}
+.information .firstname-lastname{
+display: flex;
+flex-direction: row;
+gap: 40px;
+}
+.firstname-lastname .firstname{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.firstname-lastname .lastname{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.information .phone-number{
+display: flex;
+flex-direction: column;
+margin-top: 8px;
+gap:8px;
+}
+
+.information .email{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    gap:8px;
+    }
+.information .tell-us{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    gap:8px;
+    }
+.information textarea{
+    resize: none;
+    display:block;
+}
+
+.information .submit-btn{
+    width: 100%;
+    }
+
+.information .submit{
+    margin-top: 8px;
+    gap:8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px 70px;
+    gap: 16px;
+    width: 186px;
+    height: 65px;
+    border-radius: 40px;
+}
+.slogan{
+    width: fit-content;
+    margin: 100px auto;
+
+}
+.slogan .slogan-all-content{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+}
+.slogan .slogan-all-content .slogan-title{
+width: 811px;
+height: 198px;
+font-family: 'IBM Plex Sans Thai';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 99px;
+color: #242561;
+}
+
+.slogan .slogan-all-content .ctaSignup{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 16px 32px;
+    border: 10 px;
+    border-radius: 40px;
+    width: 174px;
+    height: 48px;
+}
+
+.slogan .slogan-all-content .ctaSignup img {
+    width: 28px;
+    height: 28px;
+}
+footer{
+    width: 100%;
+    height: 88px;
+    background-color: #1D2130;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.line-content{
+    display: flex;
+    flex-direction: row;
+    gap:60px;
+    justify-content: center;
+    align-items: center;
+}
+.line-content .content{
+display: flex;
+flex-direction: row;
+gap:24px;
+justify-content: center;
+}
+
+.line-content .social-logo{
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+}
+
+.line-content .social-logo img{
+width: 24px;
+height: 24px;
+}
+
+.line-content .line-before{
+    width: fit-content;
+}
+.line-content .content p{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    opacity: 0.5;    
+    }
+.line-content .line-after{
+        width: fit-content;
+    }
+

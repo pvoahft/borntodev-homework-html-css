@@ -1,0 +1,45 @@
+@import "/css/style.css";
+
+.blog{
+    width: 100%;
+}
+.blog .blog-container{
+    max-width: 1320px;
+    margin: 300px auto;
+}
+
+.blog .blog-container .blog-all-content{
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+    align-items: center;
+}
+.blog .blog-container h1{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60.1362px;
+    line-height: 99px;
+    color: #242561;
+}
+.blog .blog-container .button-goToHomepage{
+    margin: auto;
+    border: 2px solid #343434;
+    padding: 12px 24px;
+    width: fit-content;
+    height: 57px;
+    border-radius: 40px;
+    background-color: white;
+    border-color: #242561;
+    text-decoration: none;
+}
+
+.blog .blog-container .button-goToHomepage a{
+    font-family: 'IBM Plex Sans Thai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    color: #343434;
+    text-decoration: none;
+}
